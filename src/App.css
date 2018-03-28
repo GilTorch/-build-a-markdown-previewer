@@ -34,6 +34,7 @@ body {
 
 textarea {
   resize: none;
+  white-space: pre-line;
   font-size: 0.8em;
   overflow: scroll;
   border: 5px solid #7EB24E;
@@ -50,7 +51,10 @@ textarea {
   padding: 10px;
   width: 485px;
   height: 385px; }
-  .marked-down-preview code {
+  .marked-down-preview img {
+    width: 100px;
+    height: 100px; }
+  .marked-down-preview pre {
     background-color: pink;
     padding: 1%;
     border-radius: 5px;

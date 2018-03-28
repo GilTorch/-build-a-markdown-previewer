@@ -40,6 +40,7 @@ $font-rest-of-the-page:Roboto,sans-serif;
   
   textarea {
     resize: none;
+    white-space:pre-line;
     font-size: 0.8em;
     overflow: scroll;
     border: 5px solid #7EB24E;
@@ -57,8 +58,13 @@ $font-rest-of-the-page:Roboto,sans-serif;
     width: 485px;
     height:385px;
   
+    img{
+      width:100px;
+      height:100px;
+    } 
     
-  code{
+    
+  pre{
     background-color:pink;
     padding:1%;
     border-radius:5px;
